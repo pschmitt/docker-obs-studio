@@ -12,7 +12,7 @@ jobs:
   docker-buildx:
     runs-on: ubuntu-latest
     env:
-      image_name: pschmitt/insync-desktop
+      image_name: pschmitt/obs-studio
       platforms: linux/amd64
 
     steps:
